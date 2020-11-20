@@ -2,10 +2,10 @@
     if(($i%3 -eq 0)-and ($i%5 -eq 0)){
         'FizzBuzz'
         }
-    if($i%3 -eq 0){
+    elseif($i%3 -eq 0){
         'Fizz'
         }
-    if($i%5 -eq 0){
+    elseif($i%5 -eq 0){
         'Buzz'
         }
     else{$i}}
